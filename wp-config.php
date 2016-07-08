@@ -20,7 +20,7 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'mic_helpegw');
+define('DB_NAME', 'egw-help-subdomain');
 
 /** MySQL database username */
 define('DB_USER', 'mic');
@@ -29,7 +29,7 @@ define('DB_USER', 'mic');
 define('DB_PASSWORD', 'bluegeck0');
 
 /** MySQL hostname */
-define('DB_HOST', 'dev.marketingincolor.com');
+define('DB_HOST', 'localhost');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
