@@ -47,7 +47,8 @@
 					 */
 					do_action( 'twentysixteen_credits' );
 				?>
-				<a href="<?php echo esc_url( __( site_url('/').'wp-admin/', 'twentysixteen-child' ) ); ?>"><?php printf( __( 'Login', 'twentysixteen-child' )); ?></a>
+				<!--<a href="<?php echo esc_url( __( site_url('/').'wp-admin/', 'twentysixteen-child' ) ); ?>"><?php printf( __( 'Login', 'twentysixteen-child' )); ?></a>-->
+				&copy; <?php echo date('Y'); ?> My Evergreen Wellness
 			</div><!-- .site-info -->
 		</footer><!-- .site-footer -->
 	</div><!-- .site-inner -->
